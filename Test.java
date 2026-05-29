@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 class Test{
 
@@ -9,5 +9,7 @@ public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
     System.out.println("Enter a number: ");
     int a = in.nextInt();
+    System.out.println("You entered: " + a);
+    in.close();
 }
 }

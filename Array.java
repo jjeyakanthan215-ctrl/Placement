@@ -18,5 +18,6 @@ public class Array {
             System.out.print(arr2[i] + " ");
         }
         System.out.println();
+        in.close();
     }
 }

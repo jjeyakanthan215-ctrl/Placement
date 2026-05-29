@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class fizz {
     public static void main(String[] args) {
-        System.out.println("FizzBuzz from 1 to 100:");
+        System.out.println("FizzBuzz from 1 to 100 :");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         for (int i = 1; i <= n; i++) {
@@ -16,6 +16,6 @@ public class fizz {
                 System.out.println(i);
             }
         }
+        in.close();
     }
-    
 }
