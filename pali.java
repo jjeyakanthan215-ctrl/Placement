@@ -12,10 +12,12 @@ public class pali {
     }
     public static void main(String[] args) {
         System.out.println("enter a string:");
+        @SuppressWarnings("resource")
         Scanner s = new Scanner(System.in);
         String str = s.nextLine();
         if (!isPalindrome(str)) {
             System.out.println("Not Palindrome");
         }
+        
     }
 }
