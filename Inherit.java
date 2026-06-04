@@ -24,7 +24,7 @@ class FoodUser extends User{
 }
 public class Inherit{
     public static void main(String[] args) {
-        FoodUser user1=new FoodUser("foodie","1234567899","chennai","curdrice");
+        FoodUser user1=new FoodUser("foodie","1234567899","chennai","Biriyani");
     user1.userDetails();
     }
 

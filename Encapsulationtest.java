@@ -5,6 +5,9 @@ class BankAccount
     public void setBalance(double amount){
         balance += amount;
     }
+    public double getBalance(){
+        return balance;
+    }
 }
 public class Encapsulationtest {
     public static void main(String[] args) {
@@ -13,4 +16,4 @@ public class Encapsulationtest {
         
         System.out.println(account.getBalance());
     }
-}s
+}
